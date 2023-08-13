@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aba4b2d67180b9499d5cfd7a4c15915, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  levelSeparationDistance: 0.25
+  movementSpeed:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0.16706821
+      outSlope: 0.16706821
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.046986233
+    - serializedVersion: 3
+      time: 100
+      value: 10
+      inSlope: 0.008973494
+      outSlope: 0.008973494
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.059245072
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  scorePerfect: 3
+  scoreGood: 2
+  scoreLimit: 1
+  introDuration: 1
+  cameraLerpRate: 0.03
+  cameraOffset: -0.3
+  scoreFormat: 'SCORE
+
+    {0:000000}'
+  levelFormat: 'LEVEL
+
+    {0:00}'
+  finalScoreFormat: '{0:000000}'
